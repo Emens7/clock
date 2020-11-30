@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    font-size: xx-large;
+}
+
+body {
+    font-family:'Cyberverse Condensed Italic';
+    background-color: beige;
+}
+
+.clock {
+    display: flex;
+    color: whitesmoke;
+    background-color: brown;
+    align-items: center;
+    justify-items: center;
+    width: 50%;
+    height: 2rem;
+    padding: 2rem;
+}
