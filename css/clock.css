@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'cyberverseregular';
+    src: url('./font/cyberverse-webfont.woff2') format('woff2'),
+         url('./font/cyberverse-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 *{
     box-sizing:border-box;
   }
@@ -6,15 +15,16 @@ html,body{
     height:100%;
     padding:0;
     margin:0;
-    font-size: 72px;
+    font-size: 65px;
+    font-family: 'cyberverseregular';
   }
 
   
 .box{
-    width:300px;
-    height:100px;
-    background: rgb(36,0,0);
-    background: linear-gradient(0deg, rgba(36,0,0,0.16600143475358897) 0%, rgba(121,9,9,1) 0%, rgba(255,72,0,1) 100%);
+    width: 6.5rem;
+    height: 3.25rem;
+    background: rgb(9,40,121);
+    background: linear-gradient(0deg, rgba(9,40,121,1) 15%, rgba(36,0,0,0.9923319669664741) 45%, rgba(0,87,255,1) 96%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     color: #ccc;
     display:flex;
