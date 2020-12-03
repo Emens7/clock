@@ -10,9 +10,8 @@ const startTime = () => {
     h + ":" + m + ":" + s;
     let t = setTimeout(startTime, 500);
   }
-  const checkTime = (i) => {
-    if (i < 10) {i = "0" + i};  
-    return i;
+  const checkTime = (i) => { 
+    return i < 10 ? `0${i}` : `${i}`;
   }
 
   
